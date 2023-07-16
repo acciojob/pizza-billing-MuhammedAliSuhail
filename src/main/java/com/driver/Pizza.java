@@ -64,7 +64,7 @@ public class Pizza {
 if(!billgenerated) {
     billgenerated=true;
     if(chees)bill += "Extra Cheese Price =" + CheesPrice + "\n";
-    if(toping)bill+="Extra Toppings Added:" + totalprice +"\n";
+    if(toping)bill+="Extra Toppings Added:" + TopingPrice +"\n";
     if(papper)bill+="Paperbag Added:"+papperBag+"\n";
 
     bill+="Total Price: "+totalprice+"\n";
