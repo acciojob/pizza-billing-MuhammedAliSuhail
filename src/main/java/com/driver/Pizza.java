@@ -28,7 +28,7 @@ public class Pizza {
         CheesPrice=80;
         papperBag=20;
         totalprice=price;
-        bill="Base Price Of The Pizza:"+price+"\n";
+        bill="Base Price Of The Pizza: "+price+"\n";
     }
 
     public int getPrice(){
@@ -63,9 +63,9 @@ public class Pizza {
         // your code goes here
 if(!billgenerated) {
     billgenerated=true;
-    if(chees)bill += "Extra Cheese Price =" + CheesPrice + "\n";
-    if(toping)bill+="Extra Toppings Added:" + TopingPrice +"\n";
-    if(papper)bill+="Paperbag Added:"+papperBag+"\n";
+    if(chees)bill += "Extra Cheese Price: " + CheesPrice + "\n";
+    if(toping)bill+="Extra Toppings Added: " + TopingPrice +"\n";
+    if(papper)bill+="Paperbag Added: "+papperBag+"\n";
 
     bill+="Total Price: "+totalprice+"\n";
 
